@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: #004b7c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid grey;
+    width: 100%;
+    height: 70px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(209, 207, 207);
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.leftnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbtn li{
+    list-style-type: none;
+    display:inline-block;
+    padding-right: 40px;
+}
+
+.nav-title{
+    padding-right: 110px;
+}
+
+.nav-title,
+.navclick,
+.btn {
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+
+.navclick {
+    transition: all 0.3s ease 0s;
+}
+.navclick:hover {
+    color: rgb(0, 166, 255);
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-left: 140px;
+    border-radius: 100px;
+    border-color: white;
+    background-color: rgb(84, 84, 86);
+    box-shadow: 5px 5px rgb(27, 26, 26);
+}
+
+<!--------------Left-Profile------------------------>
+#leftcol{
+    height: 650px;
+    width: 500px;
+}
+
+#profile{
+    height: 340px;
+    margin-top: 25px;
+    margin-left: 210px;
+    box-shadow: 5px 5px rgb(27, 26, 26);
+}
+
+.profile-header {
+    background-color: #004b7c;
+    height: 100px;
+}
+
+.profile-body {
+    background-color: white;
+    border: solid;
+    border-top: none;
+    border-color: rgb(77, 76, 76);
+    height: 137px;
+    padding: 70px 20px 30px 30px;
+}
+
+.userpic {
+    height: 120px;
+    width: 120px;
+    margin: 5% 0% 0% 6%;
+}
+
+.locationpic {
+    height: 20px;
+    width: 13px;
+    margin: 2% 1% 0% 0%;
+}
+
+.editpic {
+    height: 20px;
+    width: 20px;
+    margin: 2% 1% 0% 0%;
+}
+
+p {
+    margin-top: 3px;
+}
+
+<!---------------L-Education------------------------>
+#leftcol {
+    height: inherit;
+    width: 500px;
+}
+
+#fulledu{
+    height: 184px;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 210px;
+    box-shadow: 5px 5px rgb(27, 26, 26);
+
+} 
+.edu-header h2{
+    height: 50px;
+    background-color: rgb(77, 76, 76);
+    display: flex;
+    align-items: center;
+    color:white;
+    padding-left: 30px;
+    
+}
+
+.edu-content {
+    height: 116px;
+    padding-top: 15px;
+    padding-left: 30px;
+    background-color: white;
+    border: solid rgb(77, 76, 76);
+    border-top:none ;
+}
+
+.date{
+    color: grey;
+}
+
+<!----------------Right-Request------------------------>
+
+#rightcol{
+    height: inherit;
+    width: 300px;
+}
+
+#requestcard{
+    height:220px;
+    width: 300px;
+    margin-right: 210px;
+    margin-left: 35px;
+    box-shadow: 5px 5px rgb(27, 26, 26);
+}
+
+.requestheader{
+    height: 50px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    background-color:rgb(77, 76, 76);
+    color: white;
+}
+
+#numberrequest {
+    background-color: #004b7c;
+    border-radius: 35%;
+    padding: 6px;
+}
+
+.listrequest{
+    height: 160px;
+    padding-top: 10px;
+    padding-left: 26px;
+    background-color: #004b7c;
+    border-top: none;
+    list-style: none; 
+}
+
+li {
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.namer{
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+
+.friendrequest{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    border: 2px solid rgb(27, 26, 26);
+    border-radius: 50%;
+}
+
+.accept {
+    height: 30px;
+    width: 30px;
+    margin-left: 40px;
+}
+
+.close  {
+    height: 30px;
+    width: 30px;
+    margin-right:20px;       
+}
+
+<!----------------R-Connection--------------->
+#rightcol {
+    height: inherit;
+    width: 300px;
+}
+
+#connection {
+    height: 430px;
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 35px;
+    box-shadow: 5px 5px rgb(27, 26, 26);
+}
+
+.connect-header {
+    height: 70px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(77, 76, 76);
+    color: white;
+}
+
+#numberconnect {
+    background-color: #004b7c;
+    border-radius: 65%;
+    padding: 10px;
+}
+
+.listconnection {
+    height: 300px;
+    padding-top: 20px;
+    background-color: #004b7c;
+    border-top: none;
+    list-style: none;
+}
+
+.connectpic{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    border: 2px solid rgb(27, 26, 26);
+    border-radius: 50%;
+}
+
+.namec {
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}    
+
+.con{
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.view{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;  
+    height: 40px;
+    background-color: rgb(77, 76, 76);
+}
+        
+.viewmore{
+    color: white;
+    font-weight: bold;
+}
